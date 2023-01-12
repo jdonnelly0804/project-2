@@ -3,7 +3,7 @@
 ---
 
 # Summary of Project:
-The project we chose to do was a machine learning trading bot that uses various forms of technical analysis as well as supervised and unsupervised learning to attempt to generate a profitable trading strategy. The goal was to see which person would be able to create the most profitable strategies. We ran these strategies on Ethereum and to begin we first had to get the open, high, low, close, and volume data (ohlcv). To do this, we used the Binance API and created a for loop that appended each data point into its own list and then turned those lists into seperate dataframes and concatenated them.
+The project we chose to do was a machine learning trading bot that uses various forms of technical analysis as well as supervised and unsupervised learning to attempt to generate a profitable trading strategy. The goal was to see which person would be able to create the most profitable strategies. We ran these strategies on Ethereum and to begin we first had to get the open, high, low, close, and volume data (ohlcv). To do this, we used the Binance API and created a for loop that appended each data point into its own list and then turned those lists into separate dataframes and concatenated them.
 
 ---
 # Justin's Strategy:
@@ -19,9 +19,9 @@ Dmitry's strategy used a 4 day short window and 200 day long window of moving av
 
 ---
 # Ravi's Strategy:
-Ravi ran a model that was based on using unsupervised learning and a Kmeans model. The model was fitted using the closing prices and pct change. The strategy was similar to Alpha's with a buy signal when ETH went down >2% and a sell signal when it went up more than 2.8%. This strategy produced a 2.5x return roughly. A second strategy was created using the 50 day and 200 day moving average. If the 50 day MA crossed over the 200 day MA and the price change was positive that day, it indicated a buy signal. This provided a cumulative return of nearly 5x. 
+Ravi ran a model that was based on using unsupervised learning. The model was fitted using the closing prices, volume and percentage change. The strategy used the 'Golden Cross - Death Cross' DMAC of a 50-day (short) and 200-day (long) window of moving averages to derive its signals of a trend change. A second - very simple - strategy of 'Buy-on-Dips, Sell-on-High' was created just for additional practice. In this, the 10-day rolling Maximum and Minimum Prices were calculated, as also a Percentage Change in Price over the past 10 days. The 'Buy-on-Dips, Sell-on-High' plan was executed and backtested the returns of the strategy, graphically plotting the Cumulative Returns.
 
 ---
 # Summary
-Overall, we were able to create some profitable strategies using both supervised and unsupervised learning as well as techincal analysis. The most profitable strategies were Ravi's 5x strategy and Alphas strategy based on using unsupervised learning percentiles for buy/sell signals. 
+Overall, we were able to create some profitable strategies using both supervised and unsupervised learning as well as techincal analysis. The most profitable strategy was Alpha's - using unsupervised learning percentiles for buy/sell signals. 
 
