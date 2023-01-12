@@ -25,3 +25,4 @@ Ravi ran a model that was based on using unsupervised learning. The model was fi
 # Summary
 Overall, we were able to create some profitable strategies using both supervised and unsupervised learning as well as techincal analysis. The most profitable strategy was Alpha's - using unsupervised learning percentiles for buy/sell signals. 
 
+https://docs.google.com/presentation/d/1-a_OaHhJ6utz6_fey4Xo57xQ5LgIJpduZK3igTMB4pg/edit?usp=sharing
