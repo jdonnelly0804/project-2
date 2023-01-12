@@ -1,13 +1,14 @@
-# Project-2 #TODO
-
-Project needs to fulfill the following requirements:
- 1. Create a Jupyter notebook, Google Colab notebook, or Amazon SageMaker notebook to prepare a training and testing dataset.
- 2. Create one or more machine learning models.
- 3. Fit the model(s) to the training data.
- 4. Evaluate the trained model(s) by using testing data. Include any calculations, metrics, or visualizations needed to evaluate the performance.
- 5. Optionally, apply a dimensionality reduction technique to reduce the input features, or perform feature engineering to generate new features to train the model.
- 6. Show the predictions by using a sample of new data. Compare the predictions if more than one model is used.
- 7. Save PNG images of your visualizations to distribute to the class and instructional team, as well as to include in your presentation and your repo’s README.md file.
- 8. Use one new machine learning library, machine learning model, or evaluation metric that hasn't been covered in class.
- 9. Create a README.md in your repo with a write-up summarizing your project. Be sure to include any usage instructions to set up and use the model.
-
+# Project-2: Algorithmic Trading (Ethereum)
+# Team 2 members: Alpha, Dmitry, Justin, Ravi
+#-----------------------------------------------------------------------------------------------------------------
+Project components:
+ 1. Created a Jupyter notebook prepare a training and testing dataset.
+ 2. Created one or more machine learning models.
+ 3. Fit the model to the training data.
+ 4. Evaluate the trained model(s) by using testing data (with include any calculations, metrics, or visualizations needed to evaluate the performance).
+ 5. Show the predictions by using a sample of new data. Compare the predictions for the 2 models used in this project.
+ 6. Additional background reference/screenshots included in the project presentation 
+    (https://docs.google.com/presentation/d/1-a_OaHhJ6utz6_fey4Xo57xQ5LgIJpduZK3igTMB4pg/edit?usp=sharing).
+ 7. Have used a new machine learning 'evaluation metric' (not covered in class) in this project.
+ 8. Create a README.md in your repo with a write-up summarizing your project. Be sure to include any usage instructions to set up and use the model.
+#-----------------------------------------------------------------------------------------------------------------
